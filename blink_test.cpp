@@ -8,6 +8,6 @@ int main(void){
   
   while(true){
     PORTB ^= 0x01;
-    _delay_ms(1000);
+    _delay_ms(200);
   }
 }
